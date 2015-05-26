@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50d" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="NJf-oJ-wGi">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
+    </dependencies>
+    <scenes>
+        <!--Table View Controller - Flights Review-->
+        <scene sceneID="fzT-g5-0U1">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U7K-iT-8Rw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="HzO-hX-0IE" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="8Of-lC-NoJ">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="wQv-om-6ge">
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="HzO-hX-0IE" id="q5u-uK-jlS"/>
+                            <outlet property="delegate" destination="HzO-hX-0IE" id="DDU-61-xRI"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Flights Review" id="tAq-Kt-edC">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="wAP-1l-a2Z">
+                            <connections>
+                                <segue destination="2" kind="push" id="SOW-2E-qW7"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="325" y="49"/>
+        </scene>
+        <!--Supinfo View Controller - Flight Repport-->
+        <scene sceneID="5">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+                <viewController id="2" customClass="supinfoViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Latitude :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="ndT-IN-ROq">
+                                <rect key="frame" x="20" y="51" width="72" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Longitude :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="wDE-dh-Goo">
+                                <rect key="frame" x="20" y="126" width="86" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="56B-OI-080">
+                                <rect key="frame" x="173" y="51" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="NYS-nb-CAL">
+                                <rect key="frame" x="183" y="126" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sHI-LT-9gG">
+                                <rect key="frame" x="66" y="202" width="72" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPress:" destination="2" eventType="touchUpInside" id="SVZ-ht-mpT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Flight Repport" id="g8K-iH-kj0">
+                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="cancel" id="dNY-zx-aMe"/>
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="save" id="Pvh-18-CrQ"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="latitude" destination="56B-OI-080" id="skq-Ma-io1"/>
+                        <outlet property="longitude" destination="NYS-nb-CAL" id="1xw-TW-Iv8"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1265" y="49"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="E4g-SJ-MuZ">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CIT-Lg-WXY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="NJf-oJ-wGi" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="Hnt-M6-u4P">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="HzO-hX-0IE" kind="relationship" relationship="rootViewController" id="p2d-8C-i0z"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-201" y="49"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hkg-zC-Qu6">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0m5-QX-yd1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="Cs9-8w-naI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="chK-aT-EYB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="qF0-b8-EDt"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="739" y="49"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="supinfoViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/supinfoViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="buttonPress:"/>
+                <relationship kind="action" name="startStopFunction:"/>
+                <relationship kind="outlet" name="arrivalLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="departureLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="durationLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="engineStart" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="latitude" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="longitude" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="SOW-2E-qW7"/>
+    </inferredMetricsTieBreakers>
+</document>

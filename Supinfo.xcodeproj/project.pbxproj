@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B89A8941B13F7630075E903 /* ManageFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B89A8931B13F7630075E903 /* ManageFile.m */; };
+		9B89A8971B13F79B0075E903 /* raw-airfields.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9B89A8961B13F79B0075E903 /* raw-airfields.txt */; };
+		9B89A89A1B14E7D10075E903 /* FlightReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B89A8991B14E7D10075E903 /* FlightReviewViewController.m */; };
+		9B89A89D1B14EA760075E903 /* FlightReviewList.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B89A89C1B14EA760075E903 /* FlightReviewList.m */; };
+		9B89A8A01B14EBC60075E903 /* Timer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B89A89F1B14EBC60075E903 /* Timer.m */; };
+		9B89A8A31B14ED8F0075E903 /* gpsCurrentPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B89A8A21B14ED8F0075E903 /* gpsCurrentPosition.m */; };
+		9B9A8B491B13E5760063CD8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9A8B481B13E5760063CD8C /* UIKit.framework */; };
+		9B9A8B4B1B13E5760063CD8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9A8B4A1B13E5760063CD8C /* Foundation.framework */; };
+		9B9A8B4D1B13E5760063CD8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9A8B4C1B13E5760063CD8C /* CoreGraphics.framework */; };
+		9B9A8B531B13E5760063CD8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A8B511B13E5760063CD8C /* InfoPlist.strings */; };
+		9B9A8B551B13E5760063CD8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A8B541B13E5760063CD8C /* main.m */; };
+		9B9A8B591B13E5760063CD8C /* supinfoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A8B581B13E5760063CD8C /* supinfoAppDelegate.m */; };
+		9B9A8B5C1B13E5760063CD8C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9A8B5A1B13E5760063CD8C /* MainStoryboard.storyboard */; };
+		9B9A8B5F1B13E5760063CD8C /* supinfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9A8B5E1B13E5760063CD8C /* supinfoViewController.m */; };
+		9B9A8B661B13E5930063CD8C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9A8B651B13E5930063CD8C /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B89A8921B13F7630075E903 /* ManageFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageFile.h; sourceTree = "<group>"; };
+		9B89A8931B13F7630075E903 /* ManageFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManageFile.m; sourceTree = "<group>"; };
+		9B89A8961B13F79B0075E903 /* raw-airfields.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "raw-airfields.txt"; path = "../../Supinfo YOSEMITE Projet/raw-airfields.txt"; sourceTree = "<group>"; };
+		9B89A8981B14E7D10075E903 /* FlightReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightReviewViewController.h; sourceTree = "<group>"; };
+		9B89A8991B14E7D10075E903 /* FlightReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightReviewViewController.m; sourceTree = "<group>"; };
+		9B89A89B1B14EA760075E903 /* FlightReviewList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightReviewList.h; sourceTree = "<group>"; };
+		9B89A89C1B14EA760075E903 /* FlightReviewList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightReviewList.m; sourceTree = "<group>"; };
+		9B89A89E1B14EBC60075E903 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		9B89A89F1B14EBC60075E903 /* Timer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Timer.m; sourceTree = "<group>"; };
+		9B89A8A11B14ED8F0075E903 /* gpsCurrentPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gpsCurrentPosition.h; sourceTree = "<group>"; };
+		9B89A8A21B14ED8F0075E903 /* gpsCurrentPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gpsCurrentPosition.m; sourceTree = "<group>"; };
+		9B9A8B441B13E5760063CD8C /* Supinfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Supinfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B9A8B481B13E5760063CD8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9B9A8B4A1B13E5760063CD8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B9A8B4C1B13E5760063CD8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9B9A8B501B13E5760063CD8C /* Supinfo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Supinfo-Info.plist"; sourceTree = "<group>"; };
+		9B9A8B521B13E5760063CD8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9B9A8B541B13E5760063CD8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B9A8B561B13E5760063CD8C /* Supinfo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Supinfo-Prefix.pch"; sourceTree = "<group>"; };
+		9B9A8B571B13E5760063CD8C /* supinfoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = supinfoAppDelegate.h; sourceTree = "<group>"; };
+		9B9A8B581B13E5760063CD8C /* supinfoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = supinfoAppDelegate.m; sourceTree = "<group>"; };
+		9B9A8B5B1B13E5760063CD8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9B9A8B5D1B13E5760063CD8C /* supinfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = supinfoViewController.h; sourceTree = "<group>"; };
+		9B9A8B5E1B13E5760063CD8C /* supinfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = supinfoViewController.m; sourceTree = "<group>"; };
+		9B9A8B651B13E5930063CD8C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B9A8B411B13E5750063CD8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B9A8B661B13E5930063CD8C /* CoreLocation.framework in Frameworks */,
+				9B9A8B491B13E5760063CD8C /* UIKit.framework in Frameworks */,
+				9B9A8B4B1B13E5760063CD8C /* Foundation.framework in Frameworks */,
+				9B9A8B4D1B13E5760063CD8C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B9A8B391B13E5750063CD8C = {
+			isa = PBXGroup;
+			children = (
+				9B9A8B651B13E5930063CD8C /* CoreLocation.framework */,
+				9B9A8B4E1B13E5760063CD8C /* Supinfo */,
+				9B9A8B471B13E5760063CD8C /* Frameworks */,
+				9B9A8B451B13E5760063CD8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B9A8B451B13E5760063CD8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B9A8B441B13E5760063CD8C /* Supinfo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B9A8B471B13E5760063CD8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B9A8B481B13E5760063CD8C /* UIKit.framework */,
+				9B9A8B4A1B13E5760063CD8C /* Foundation.framework */,
+				9B9A8B4C1B13E5760063CD8C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B9A8B4E1B13E5760063CD8C /* Supinfo */ = {
+			isa = PBXGroup;
+			children = (
+				9B9A8B571B13E5760063CD8C /* supinfoAppDelegate.h */,
+				9B9A8B581B13E5760063CD8C /* supinfoAppDelegate.m */,
+				9B9A8B5A1B13E5760063CD8C /* MainStoryboard.storyboard */,
+				9B89A8921B13F7630075E903 /* ManageFile.h */,
+				9B89A8961B13F79B0075E903 /* raw-airfields.txt */,
+				9B89A8931B13F7630075E903 /* ManageFile.m */,
+				9B9A8B5D1B13E5760063CD8C /* supinfoViewController.h */,
+				9B9A8B5E1B13E5760063CD8C /* supinfoViewController.m */,
+				9B89A8A11B14ED8F0075E903 /* gpsCurrentPosition.h */,
+				9B89A8A21B14ED8F0075E903 /* gpsCurrentPosition.m */,
+				9B9A8B4F1B13E5760063CD8C /* Supporting Files */,
+				9B89A8981B14E7D10075E903 /* FlightReviewViewController.h */,
+				9B89A8991B14E7D10075E903 /* FlightReviewViewController.m */,
+				9B89A89E1B14EBC60075E903 /* Timer.h */,
+				9B89A89F1B14EBC60075E903 /* Timer.m */,
+				9B89A89B1B14EA760075E903 /* FlightReviewList.h */,
+				9B89A89C1B14EA760075E903 /* FlightReviewList.m */,
+			);
+			path = Supinfo;
+			sourceTree = "<group>";
+		};
+		9B9A8B4F1B13E5760063CD8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B9A8B501B13E5760063CD8C /* Supinfo-Info.plist */,
+				9B9A8B511B13E5760063CD8C /* InfoPlist.strings */,
+				9B9A8B541B13E5760063CD8C /* main.m */,
+				9B9A8B561B13E5760063CD8C /* Supinfo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B9A8B431B13E5750063CD8C /* Supinfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B9A8B621B13E5760063CD8C /* Build configuration list for PBXNativeTarget "Supinfo" */;
+			buildPhases = (
+				9B9A8B401B13E5750063CD8C /* Sources */,
+				9B9A8B411B13E5750063CD8C /* Frameworks */,
+				9B9A8B421B13E5750063CD8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Supinfo;
+			productName = Supinfo;
+			productReference = 9B9A8B441B13E5760063CD8C /* Supinfo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B9A8B3B1B13E5750063CD8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = supinfo;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 9B9A8B3E1B13E5750063CD8C /* Build configuration list for PBXProject "Supinfo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B9A8B391B13E5750063CD8C;
+			productRefGroup = 9B9A8B451B13E5760063CD8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B9A8B431B13E5750063CD8C /* Supinfo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B9A8B421B13E5750063CD8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B9A8B531B13E5760063CD8C /* InfoPlist.strings in Resources */,
+				9B9A8B5C1B13E5760063CD8C /* MainStoryboard.storyboard in Resources */,
+				9B89A8971B13F79B0075E903 /* raw-airfields.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B9A8B401B13E5750063CD8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B9A8B551B13E5760063CD8C /* main.m in Sources */,
+				9B9A8B591B13E5760063CD8C /* supinfoAppDelegate.m in Sources */,
+				9B9A8B5F1B13E5760063CD8C /* supinfoViewController.m in Sources */,
+				9B89A8941B13F7630075E903 /* ManageFile.m in Sources */,
+				9B89A89A1B14E7D10075E903 /* FlightReviewViewController.m in Sources */,
+				9B89A89D1B14EA760075E903 /* FlightReviewList.m in Sources */,
+				9B89A8A01B14EBC60075E903 /* Timer.m in Sources */,
+				9B89A8A31B14ED8F0075E903 /* gpsCurrentPosition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B9A8B511B13E5760063CD8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B9A8B521B13E5760063CD8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9B9A8B5A1B13E5760063CD8C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B9A8B5B1B13E5760063CD8C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B9A8B601B13E5760063CD8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B9A8B611B13E5760063CD8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B9A8B631B13E5760063CD8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Supinfo/Supinfo-Prefix.pch";
+				INFOPLIST_FILE = "Supinfo/Supinfo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9B9A8B641B13E5760063CD8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Supinfo/Supinfo-Prefix.pch";
+				INFOPLIST_FILE = "Supinfo/Supinfo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B9A8B3E1B13E5750063CD8C /* Build configuration list for PBXProject "Supinfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B9A8B601B13E5760063CD8C /* Debug */,
+				9B9A8B611B13E5760063CD8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B9A8B621B13E5760063CD8C /* Build configuration list for PBXNativeTarget "Supinfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B9A8B631B13E5760063CD8C /* Debug */,
+				9B9A8B641B13E5760063CD8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B9A8B3B1B13E5750063CD8C /* Project object */;
+}
