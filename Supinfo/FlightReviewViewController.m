@@ -11,7 +11,12 @@
 #import "FlightReviewList.h"
 #import "supinfoViewController.h"
 
-@interface FlightReviewViewController ()
+@interface FlightReviewViewController () {
+    
+}
+
+@property NSMutableArray *toDoItems;
+
 
 @end
 
@@ -95,7 +100,9 @@
     return [self.toDoItems count];
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+
+// Très importante je trouve juste pas encore la proprieté sur xcode 6
+/*- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ListPrototypeCell" forIndexPath:indexPath];
     
@@ -105,15 +112,15 @@
     cell.textLabel.text = toDoItem.icaoArrival;
     
     return cell;
-}
+}*/
 
 
 // Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+/*- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Return NO if you do not want the specified item to be editable.
     return YES;
-}
+}*/
 
 
 

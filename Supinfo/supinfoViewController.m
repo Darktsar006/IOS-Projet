@@ -33,12 +33,20 @@
     CLLocationManager *localManager;
     
 }
+@synthesize departureLabel;
+@synthesize arrivalLabel;
+@synthesize durationLabel;
+@synthesize engineStart;
+@synthesize saveButton;
 
 // UICatalogue
+/*
 @synthesize departureLabel;
 @synthesize engineStart;
 @synthesize arrivalLabel;
 @synthesize durationLabel;
+ */
+
 
 @synthesize latitude;
 @synthesize longitude;
@@ -58,6 +66,11 @@
 {
     [self setLatitude:nil];
     [self setLongitude:nil];
+    [self setDepartureLabel:nil];
+    [self setArrivalLabel:nil];
+    [self setDurationLabel:nil];
+    [self setEngineStart:nil];
+    [self setSaveButton:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -115,6 +128,26 @@
 
 
 // Fin d'import 
+/* Désalocation de la fonction de xcode 6
+- (IBAction)startStopFunction:(id)sender {
+
+}*/
+
+#pragma mark - Navigation
+// Pour ajouter des nouvelles données entre les pages, je s'occupera de la Persistance plus tard.
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+    
+    if (sender != self.saveButton) return;
+    
+    // On n'ajoute de cette façon les nounelle donnes
+    self.toDoItem = [[FlightReviewList alloc] init];
+    self.toDoItem.icaoArrival = durationLabel.text;
+}
+
+
 - (IBAction)startStopFunction:(id)sender {
     departureLabel.hidden = NO;
     
@@ -152,20 +185,4 @@
     
     //self.engineStart.currentTitle = @"Stop";
 }
-
-#pragma mark - Navigation
-// Pour ajouter des nouvelles données entre les pages, je s'occupera de la Persistance plus tard.
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-    
-    if (sender != self.saveButton) return;
-    
-    // On n'ajoute de cette façon les nounelle donnes
-    self.toDoItem = [[FlightReviewList alloc] init];
-    self.toDoItem.icaoArrival = durationLabel.text;
-}
-
-
 @end

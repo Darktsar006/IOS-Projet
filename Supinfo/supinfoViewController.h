@@ -15,7 +15,8 @@
 @interface supinfoViewController : UIViewController {
     
 }
-
+// Proprieté créser dans xcode 6
+/*
 @property (weak, nonatomic) IBOutlet UIButton *engineStart;
 
 @property (weak, nonatomic) IBOutlet UILabel *departureLabel;
@@ -23,9 +24,26 @@
 @property (weak, nonatomic) IBOutlet UILabel *arrivalLabel;
 
 @property (weak, nonatomic) IBOutlet UILabel *durationLabel;
+*/
 
-@property ReviewList *toDoItem;
+// proprieté créer sous xcode 5 - VM Mountain lion
 
+@property (weak, nonatomic) IBOutlet UILabel *departureLabel;
+
+@property (weak, nonatomic) IBOutlet UILabel *arrivalLabel;
+
+@property (weak, nonatomic) IBOutlet UILabel *durationLabel;
+
+@property (weak, nonatomic) IBOutlet UIButton *engineStart;
+
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *saveButton;
+
+@property FlightReviewList *toDoItem;
+
+// xcode 6 startStop Function
+/*- (IBAction)startStopFunction:(id)sender;*/
+
+// xcode 5 startStop Function
 - (IBAction)startStopFunction:(id)sender;
 
 @end
